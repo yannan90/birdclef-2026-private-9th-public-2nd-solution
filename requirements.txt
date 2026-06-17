@@ -1,0 +1,15 @@
+# Core (training + analysis)
+torch>=2.0
+torchaudio>=2.0
+timm>=0.9
+numpy
+pandas
+scipy
+scikit-learn
+soundfile
+tqdm
+matplotlib
+
+# Inference (CPU kernel / ONNX export)
+onnx
+onnxruntime

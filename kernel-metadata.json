@@ -1,0 +1,18 @@
+{
+  "id": "yannan90/birdclef2026-folds-infer",
+  "title": "birdclef2026-folds-infer",
+  "code_file": "infer_kernel_folds.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "yannan90/birdclef2026-folds-models",
+    "yannan90/onnxruntime-and-openvino-wheels"
+  ],
+  "competition_sources": [
+    "birdclef-2026"
+  ],
+  "kernel_sources": []
+}

@@ -1,0 +1,18 @@
+# Data & weights (not distributed — download from Kaggle / train yourself)
+birdclef-2026/
+*.pth
+*.ckpt
+*.onnx
+*.wav
+*.ogg
+*.parquet
+
+# Caches / logs / junk
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.ipynb_checkpoints/
+
+# NOTE: ci_analysis/data/*.npz IS tracked on purpose (it reproduces the CI figure).
+# If you prefer not to commit ~34 MB of .npz, use git-LFS or drop ci_analysis/data/.
